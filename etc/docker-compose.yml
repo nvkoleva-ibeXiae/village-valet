@@ -20,7 +20,7 @@ services:
       - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
 
   village-valet:
-    build: https://github.com/Albany-Guardian-Society/village-valet.git
+    build: https://github.com/nvkoleva-ibeXiae/village-valet.git
     container_name: village-valet
     restart: always
     labels:
